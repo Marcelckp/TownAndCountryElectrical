@@ -1,0 +1,126 @@
+    .nav {
+        display: flex;
+        flex-direction: row;
+        position: fixed;
+        top: 0;
+        padding: 20px;
+        justify-content: space-between;
+        z-index: 10;
+        width: 100vw;
+        height: 30px;
+        transition-timing-function: ease-in;
+        transition: all 0.2s;
+        background-color: white;
+        object-fit: contain;
+        letter-spacing: .06rem;
+        min-width: 800px;
+        max-width: 100%;
+    }
+    
+    .one-edge-shadow {
+        -webkit-box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.452);
+        -moz-box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.452);
+        box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.452);
+    }
+    
+    .nav--link {
+        position: relative;
+        text-decoration: none;
+        color: black;
+        font-size: 15px;
+        font-weight: 700;
+        margin-left: 20px;
+        cursor: pointer;
+    }
+    
+    .deAct {
+        cursor: default;
+    }
+    
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+    
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        top: 60px;
+        background-color: #f9f9f9;
+        min-width: 200px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 12;
+    }
+    
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+    
+    .dropdown-content a:hover {
+        background-color: #eceaea
+    }
+    
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+    
+    .dropdown:hover .dropbtn {
+        background-color: #3e8e41;
+    }
+    
+    .nav--link:hover {
+        color: rgb(33, 131, 33);
+        -webkit-transition: color 200ms linear;
+        -ms-transition: color 200ms linear;
+        transition: color 200ms linear;
+        /**/
+        transition-timing-function: ease-in;
+        -moz-transition: all .4s ease-in-out;
+        -o-transition: all .4s ease-in-out;
+        -webkit-transition: all .4s ease-in-out;
+        transition: all .4s ease-in-out;
+        transform: translateY(-5px)
+    }
+    
+    .active {
+        color: rgb(33, 131, 33)
+    }
+    
+    .nav-logo {
+        position: fixed;
+        left: 15px;
+        top: 12px;
+        height: 50px;
+        /* width: 100px; */
+        object-fit: contain;
+    }
+    
+    .nav-logo-name {
+        position: fixed;
+        top: 14px;
+        left: 95px;
+        font-size: 15px;
+        font-weight: 800;
+        color: black;
+        text-align: center;
+        min-width: 300px
+    }
+    
+    .nav-logo-name:hover {
+        color: rgb(33, 131, 33);
+        -webkit-transition: color 300ms linear;
+        -ms-transition: color 300ms linear;
+        transition: color 300ms linear;
+    }
+    
+    .logo-div-links {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        right: 60px;
+        top: -33px;
+    }

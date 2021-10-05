@@ -1,0 +1,63 @@
+.bgg2 {
+    animation: slide 3s ease-in-out infinite alternate;
+    background-image: linear-gradient(-60deg, rgb(104, 62, 255) 50%, rgb(0, 255, 21) 50%);
+    bottom: 0;
+    left: -50%;
+    opacity: .5;
+    position: fixed;
+    right: -50%;
+    top: 0;
+    z-index: -1;
+}
+
+.bg6 {
+    animation-direction: alternate-reverse;
+    animation-duration: 4s;
+}
+
+.bg7 {
+    animation-duration: 5s;
+}
+
+.AboutScreen {
+    height: 1880px;
+    width: 100%;
+    transition-timing-function: ease-in;
+    transition: all 0.3s
+}
+
+.AboutScreen-container {
+    background-color: white;
+    position: relative;
+    top: 90px;
+    width: 94vw;
+    margin: auto;
+    border-radius: 10px;
+    min-width: 700px;
+    padding-bottom: 60px
+}
+
+.center-title {
+    text-align: center;
+}
+
+.company--info-aboutScreen {
+    margin-left: 20px;
+    font-weight: 200;
+    font-size: 15px;
+    border-bottom: solid 1px black;
+    margin: auto;
+    width: 85%
+}
+
+.company--info-aboutScreen h1 {
+    font-weight: 330;
+    text-align: center;
+}
+
+.company--info-aboutScreen p {
+    font-weight: 300;
+    font-size: 16px;
+    padding-bottom: 10px;
+    line-height: 2em;
+}

@@ -1,0 +1,54 @@
+.review--list--container {
+    text-align: left;
+    padding: 10px;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    border-radius: 6px;
+    -moz-box-shadow: 3px 3px 6px -3px rgb(0, 0, 0);
+    -webkit-box-shadow: 3px 3px 6px -3px rgb(0, 0, 0);
+    box-shadow: 2px 2px 6px -3px rgb(0, 0, 0);
+}
+
+.review--list--container:hover {
+    transition-timing-function: ease-in;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    transform: translateY(-10px)
+}
+
+.review--list--container h1 {
+    font-size: 25px;
+    border-bottom: 1px solid black;
+    width: 100%;
+}
+
+.delete-btn--review {
+    /* position: relative; */
+    /* left: -50px; */
+    /* top: 20px; */
+    width: 20%;
+    border: none;
+    background-clip: padding-box;
+    overflow: hidden;
+    border-radius: 6px;
+    padding: 10px 40px;
+    cursor: pointer;
+    font-weight: 800;
+    letter-spacing: .06rem;
+    color: white;
+    background-image: linear-gradient(to right, lightgreen 0%, green 40%, lightgreen 100%);
+    background-size: 300% 100%;
+}
+
+.delete-btn--review:hover {
+    background-position: 100% 0;
+    transition-timing-function: ease-in;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    transform: translateY(-5px)
+}
